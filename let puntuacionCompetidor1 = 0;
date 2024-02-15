@@ -1,0 +1,12 @@
+let puntuacionCompetidor1 = 0;
+let puntuacionCompetidor2 = 0;
+
+function incrementarPuntuacion(competidor) {
+    if (competidor === 1) {
+        puntuacionCompetidor1++;
+        document.getElementById("puntuacion1").innerHTML = puntuacionCompetidor1;
+    } else if (competidor === 2) {
+        puntuacionCompetidor2++;
+        document.getElementById("puntuacion2").innerHTML = puntuacionCompetidor2;
+    }
+}
